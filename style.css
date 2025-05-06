@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #2a2a2a;
+}
+
+#Cabeça .nav-container a:hover {
+    background-color: #f3f3f3;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+
+#Cabeça .nav-container a {
+
+    border-radius: 10px;
+
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: #F3F3F3;
+    position: fixed;
+    font-size: 20px;
+}
+
+#atc {
+
+    font-size: 50px;
+
+
+
+}
+
+#Cabeça {
+    background: none;
+    padding: 0;
+}
+
+#Cabeça .nav-container {
+    width: auto;
+    height: auto;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#Cabeça .nav-container a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    z-index: 1;
+
+}
+
+
+
+#nome {
+    font-size: 80px;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.781);
+
+}
+
+#primeiro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/9070324cdfc07c68d60eed0c39e77573.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+
+#segundo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+#mim {
+    color: #F3F3F3;
+    font-size: 50px;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.781);
+
+}
+
+#h2 {
+    color: #F3F3F3;
+
+}
