@@ -1,33 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Portfólio</title>
-</head>
-<body>
-    <header>
-    <h2 id="atc"> Portfólio </h2>
-    <nav id="Cabeça">
-        <div class="nav-container">
-            <a href="#primeiro">Home</a>
-            <a href="#Sobre">Sobre mim</a>
-            <a href="#Projetos">Projetos</a>
-            <a href="#Contato">Contatos</a>
-        </div>
-    </nav>
-    </header>
+<html lang="pt-br">
 
-    <section id="primeiro">
-        <h1 id="nome">Mateus Diolinda do Amaral</h1>
-        <h2>Seja bem-vindo ao meu site!</h2>
-    </section>
-    
-    <section id="segundo">
-        <h1 id="mim">Sobre mim</h1>
-        
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <title>Portfólio</title>
+</head>
+
+<body>
+  <header class="anm">
+    <h2 id="atc">Portfólio</h2>
+    <nav id="Cabeça">
+      <div class="nav-container">
+        <a href="#primeiro">Home</a>
+        <a href="#segundo">Sobre mim</a>
+        <a href="#terceiro">Projetos</a>
+        <a href="#Contato">Contatos</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="primeiro" class="anm anm-delay-1">
+    <h1 id="nome">Mateus Diolinda do Amaral</h1>
+    <h2>Seja bem-vindo ao meu site!</h2>
+  </section>
+
+  <section id="segundo" class="anm anm-delay-2">
+    <div id="aaa">
+      <h1 id="mim">Quem sou eu?</h1>
+    </div>
+    <div id="texto1">
+      <p>
+        Sou um entusiasta da tecnologia, apaixonado por desenvolvimento e sempre em busca de evolução.
+      </p>
+    </div>
+    <img src="img/perfil.png" alt="Foto de perfil">
+  </section>
+
+  <section id="terceiro" class="anm anm-delay-3">
+    <h2 id="mim1" class="anm anm-delay-3">Conhecimentos:</h2>
+    <div class="carrossel">
+      <button id="anterior">&#10094;</button>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="img/html.png" alt="HTML">
+          <p>Tenho conhecimentos básicos em HTML, mas estou sempre estudando e buscando aprender mais.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/css.png" alt="CSS">
+          <p>Tenho conhecimentos básicos em CSS, sei utilizar keyframes e media queries, e estou sempre tentando evoluir.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/javascript.png" alt="JavaScript">
+          <p>Faz pouco tempo que aprendi JavaScript, mas já possuo conhecimentos razoáveis na linguagem.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/java.png" alt="Java">
+          <p>Java foi a primeira linguagem que aprendi. Utilizo o NetBeans para programar e tenho conhecimentos em POO e em Java com MySQL.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/banco.png" alt="Banco de Dados">
+          <p>Tenho conhecimentos básicos em MySQL. Não é a tecnologia que mais domino, mas sei utilizá-la quando necessário.</p>
+        </div>
+      </div>
+
+      <button id="proximo">&#10095;</button>
+    </div>
+  </section>
+
+     <section id="quarto" class="anm anm-delay-2">
+        <h2 id="mim2">Projetos</h2>
+
+        <div class="projetos-container">
+
+            <div class="projeto-card-container">
+                <div class="projeto-card-flip">
+                    <div class="projeto-card-front">
+                        <h3>Lista de Exercícos Interativa</h3>
+                    </div>
+                    <div class="projeto-card-back">
+                        <div class="projeto-card-text">Trabalho do curso, onde tem 20 exercícios interativos.</div>
+                        <a href="https://mateusdio.github.io/Site-Exerc-cios/" target="_blank">
+                            <button>Ver Projeto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto-card-container">
+                <div class="projeto-card-flip">
+                    <div class="projeto-card-front">
+                        <h3>Lista de Compras Interativa</h3>
+                    </div>
+                    <div class="projeto-card-back">
+                        <div class="projeto-card-text">Trabalho do curso, que é uma lista de compras interativa.</div>
+                        <a href="https://mateusdio.github.io/Produtos/" target="_blank">
+                            <button>Ver Projeto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto-card-container">
+                <div class="projeto-card-flip">
+                    <div class="projeto-card-front">
+                        <h3>Jogo Genius</h3>
+                    </div>
+                    <div class="projeto-card-back">
+                        <div class="projeto-card-text">Trabalho do curso, onde recriamos o jogo genius.</div>
+                        <a href="https://rr4lima.github.io/JogoGeniusMateuseRafa/" target="_blank">
+                            <button>Ver Projeto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="projeto-card-container">
+                <div class="projeto-card-flip">
+                    <div class="projeto-card-front">
+                        <h3>Projeto 4</h3>
+                    </div>
+                    <div class="projeto-card-back">
+                        <div class="projeto-card-text">Descrição do projeto 4.</div>
+                        <a href="https://rr4lima.github.io/JogoGeniusMateuseRafa/" target="_blank">
+                            <button>Ver Projeto</button>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
     </section>
 </body>
+
 </html>
