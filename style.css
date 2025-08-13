@@ -85,7 +85,7 @@ font-size: 5px;
 
 }
 #nome {
-    font-size: 100px !important;
+    font-size: 100px ;
     text-shadow: 4px 4px 20px black;
 }
 
@@ -104,7 +104,7 @@ font-size: 5px;
 }
 
 #quem {
-    font-size: 100px !important;
+    font-size: 100px ;
     align-items: center;
     justify-content: center;
 }
@@ -483,9 +483,6 @@ button:hover {
 
     }
 
-    #nome {
-        font-size: 50px;
-    }
 
     #primeiro h2 {
         font-size: 24px;
@@ -504,7 +501,8 @@ button:hover {
 
 @media (max-width: 480px) {
     #nome {
-        font-size: 40px;
+        text-align: center;
+        font-size: 30px;
     }
 
     .titulo-secao {
